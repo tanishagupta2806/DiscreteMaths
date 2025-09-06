@@ -128,19 +128,19 @@ shortest_path_length = nx.shortest_path_length(G, source=source_node, target=tar
 # Print the length of the shortest path
 print("Length of the shortest path:", shortest_path_length)
 
-# Specify the source and target nodes
-nodes = list(G.nodes())
-source_node = np.random.choice(nodes)
-target_node = np.random.choice(nodes)
+// # Specify the source and target nodes
+// nodes = list(G.nodes())
+// source_node = np.random.choice(nodes)
+// target_node = np.random.choice(nodes)
 
-# Calculate the shortest path
-shortest_path = nx.shortest_path(G, source=source_node, target=target_node)
+// # Calculate the shortest path
+// shortest_path = nx.shortest_path(G, source=source_node, target=target_node)
 
-# Print the shortest path
-print("Shortest path from", source_node, "to", target_node, ":", shortest_path)
+// # Print the shortest path
+// print("Shortest path from", source_node, "to", target_node, ":", shortest_path)
 
-# Calculate the length of the shortest path
-shortest_path_length = nx.shortest_path_length(G, source=source_node, target=target_node)
+// # Calculate the length of the shortest path
+// shortest_path_length = nx.shortest_path_length(G, source=source_node, target=target_node)
 
-# Print the length of the shortest path
-print("Length of the shortest path:", shortest_path_length)
+// # Print the length of the shortest path
+// print("Length of the shortest path:", shortest_path_length)
